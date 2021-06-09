@@ -18,10 +18,3 @@ jobs:
       
         cd "Lab7"
         make 
-    
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
-      with:
-        files: |
-          ./Lab7/MarriageAgency.cpp.gcov
-          ./Lab7/People.cpp.gcov
